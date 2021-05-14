@@ -8,6 +8,7 @@
    2. Write `python -m venv ~/env`. This will create a file `env` in your home directory.
    3. Write `source ~/env/bin/activate` to activate the environment. You will find `(env)` at the beginning of your commnad line. [To deactivate write `deactivate`]
    4. Now do `pip install django djangorestframework`.
+   5. Write `pip install psycopg2` to install the dbms software.
 
   ### To Start the Server
   
