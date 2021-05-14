@@ -12,4 +12,5 @@
 
   ### To Start the Server
   
-  1. Write `python manage.py runserver` and the server is running at 127.0.0.1:8000 (generally). Also this address will be given is cli once the server is running.
+  1. Write `source ~/env/bin/activate` to activate the environment. You will find `(env)` at the beginning of your commnad line.[If deactivated]
+  2. Write `python manage.py runserver` and the server is running at 127.0.0.1:8000 (generally). Also this address will be given is cli once the server is running.
