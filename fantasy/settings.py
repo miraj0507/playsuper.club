@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'fantasy.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'bgybpygv',
+        'USER' : 'bgybpygv',
+        'PASSWORD' : 'CTu6NDVxgWg9hMIZx6dV6z2_26CPiWBF',
+        'HOST' : 'arjuna.db.elephantsql.com',
+        'PORT' : '5432',
     }
 }
 
