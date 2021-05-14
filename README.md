@@ -11,5 +11,4 @@
 
   ### To Start the Server
   
-   1. Write `python manage.py makemigrations` and then `python manage.py migrate`. ⚠️ ***FIRST TIME USE ONLY*** ⚠️
-   2. Write `python manage.py runserver` and the server is running at 127.0.0.1:8000 (generally). Also this address will be given is cli once the server is running.
+  1. Write `python manage.py runserver` and the server is running at 127.0.0.1:8000 (generally). Also this address will be given is cli once the server is running.
