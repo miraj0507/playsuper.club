@@ -19,4 +19,5 @@
   ### Sign in details in admin page
   
    Username = fantasy
+   
    password = fantasy
