@@ -1,0 +1,17 @@
+
+.feature-container {
+    /* background-size: 200px 350px; */
+    background-color: #AB110E;
+    height: 65vh;
+  }
+
+  .feature-text{
+      position: relative;
+      top:40px;
+      font-size: 20px;
+      color: #fff;
+      font-family: 'Saira Stencil One', cursive;
+      text-align: center;
+      
+      
+  }

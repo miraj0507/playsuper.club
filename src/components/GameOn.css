@@ -1,0 +1,105 @@
+.game-on-container{
+    background-size: 200px 350px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgb(175, 175, 175), #FFFFFF 97.4%);
+    height: 50vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+}
+
+.game-on-text >h1{
+position: relative;
+font-family: 'Saira Stencil One', cursive;
+justify-content: center;
+top: 30px;
+
+font-family: 'Saira Stencil One', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 69px;
+text-align: center;
+}
+
+.game-on-card-container{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+   /* border: solid blue 1px; */
+    padding: 30px;
+    margin-left: 20px;
+    position:relative;
+    top:50px;
+    left: 30px; 
+    justify-content: space-between;
+}
+
+.game-on-rectangle{
+    margin-right: 30px;
+    top:-10px;
+    position: relative;
+    display: block;
+}
+
+.game-on-info-box{
+padding: 2rem;
+margin-right: 2rem;
+margin-left: 3rem;
+background-color: black;
+color: #FFFFFF;
+border:1px solid black;
+border-radius: 10px;
+width: 230px;
+height:100 px;
+font-family: 'Quicksand';
+text-align: center;
+}
+
+.box{
+
+    height:90px;
+    width:250px;
+    background:black;
+    position:relative;
+    
+    color: #FFFFFF;
+    text-align: center;
+    text-indent: 1rem ;
+   /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px; 
+    margin-top:20px;*/
+  }
+  
+  .ellipse{
+    position:absolute;
+    height:40px;
+    width:40px;
+    border-radius:40px;
+    border:3px solid white;
+    left:50%;
+    margin-left:-80px;
+    top:-20px;
+    background: #FFFFFF;
+  }
+
+  .text-circle{
+      text-align: center;
+      color: #AB110E;
+      position: absolute;
+      top: 10px;
+      left: -2px;
+      font-size: 1rem;
+
+
+  }
+
+  .text-box{
+      color:#FFFFFF;
+      text-align: center;
+      font-style: italic;
+      font-size: 15px;
+      position: absolute;
+      top:35px;
+      left:50px;
+  }

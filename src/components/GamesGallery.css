@@ -1,0 +1,17 @@
+.games-gallery-container{
+        background-position: absolute;
+        /*background-size: 200px 350px; */
+        background-color: #fff;
+        height: 65vh;
+        align-items: left;
+        object-fit: contain;
+}
+
+.games-gallery-text{
+    position: relative;
+    top:40px;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    font-family: 'Saira Stencil One', cursive;
+}
